@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- type text  是一个文本框 value表单值 name表单名字-->
+	用户名: <input type="text" value="请输入用户名" name="username" /> <br />
+	昵称: <input type="text" value="请输入昵称" name="nicheng" /> <br />
+	<!-- type password  是一个密码框 -->
+	密码: <input type="password" name="password" /> <br />
+	<!-- type radio  是单选 checked默认选中 --> 
+	性别: 
+		男 <input type="radio" name="sex" /> 
+		女 <input type="radio" name="sex" checked="checked" /> <br />
+	<!-- type checkbox  是复选 checked默认选中 -->
+	爱好:
+		篮球 <input type="checkbox" name="hobby" checked="checked" />
+		足球 <input type="checkbox" name="hobby" />
+		乒乓球 <input type="checkbox" name="hobby" /> <br />
+			<!-- 普通按钮需要写value值 -->
+			<input type="button" value="获取短信验证码" />
+			<input type="submit" value="提交信息" />
+			<input type="reset" value="重置信息" />
+			<!-- 图片提交按钮必须包含src属性 -->
+			<input type="image" src="image/btn.png" /> <br />
+	上传头像:
+			<!-- 文件域 上传文件 -->
+			<input type="file" />
+
+</body>
+</html>
